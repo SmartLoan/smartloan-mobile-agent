@@ -19,6 +19,7 @@ npm install rn-indy-sdk --save
 brew install watchman
 npm install -g react-native-cli
 react-native link rn-indy-sdk
+npm install aries-framework
 ```
 
 #### Mediator
@@ -46,6 +47,8 @@ cd smartloan-mobile-agent
 After clone, install using --force if version error appear:
 
 ```sh
+nvm list-remote
+nvm install v16.1.0
 npm install --force
 ```
 
