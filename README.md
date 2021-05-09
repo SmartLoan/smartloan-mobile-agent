@@ -14,6 +14,13 @@ Troubleshooting guides can be found in the [docs/installation](./docs/INSTALLATI
 
 [Cocoa Pods](https://cocoapods.org/) (iOS specific)
 
+```sh
+npm install rn-indy-sdk --save
+brew install watchman
+npm install -g react-native-cli
+react-native link rn-indy-sdk
+```
+
 #### Mediator
 
 In order to use Aries Bifold, you must have a mediator to use with the app. Instructions for launching your own mediator locally can be found in [docs/mediations](./docs/MEDIATION.md) or at [Aries Framework Javascript](https://github.com/hyperledger/aries-framework-javascript#starting-mediator-agents).
