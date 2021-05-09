@@ -20,9 +20,8 @@ Troubleshooting guides can be found in the [docs/installation](./docs/INSTALLATI
 [Cocoa Pods](https://cocoapods.org/) (iOS specific)
 
 ```sh
-npm install rn-indy-sdk --save
 brew install watchman
-npm install -g react-native-cli
+npm install rn-indy-sdk --save
 react-native link rn-indy-sdk
 npm install aries-framework
 ```
