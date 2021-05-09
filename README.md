@@ -1,10 +1,15 @@
 # SmartLoan Mobile Agent
-This dApp is build according to Hyperledger's React Native Mobile Agent.
+This dApp is build according to Hyperledger's React Native Mobile Agent.  
 For details, visit the original repository [here](https://github.com/hyperledger/aries-mobile-agent-react-native).
 
 ## Install
 
 ### Prerequistes
+Check the npm version, need to be latest:  
+```sh
+nvm list-remote
+nvm install v16.1.0
+```
 
 #### React Native
 
@@ -121,6 +126,7 @@ If you end up changing dependencies or structures, you may need to perform the f
 #### Android
 
 ```sh
+watchman watch-del-all 
 rm -rf node_modules
 npm install
 ```
